@@ -41,4 +41,11 @@ public class MainActivity extends AppCompatActivity {
         toast.show();
     }
 
+    public void resetText3434(View view) {
+        etName.getText().clear();
+        tvMessage.setText("Name cleared");
+        Toast toast = Toast.makeText(this, "Name cleared", Toast.LENGTH_SHORT);
+        toast.show();
+    }
+
 }
