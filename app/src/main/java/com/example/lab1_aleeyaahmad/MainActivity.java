@@ -53,4 +53,4 @@ public class MainActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(this, "Name cleared", Toast.LENGTH_SHORT);
         toast.show();
 
-}
+}}
